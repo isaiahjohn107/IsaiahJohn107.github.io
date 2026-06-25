@@ -1,0 +1,40 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: yellow;
+    display: inline-block;
+    width:  200px;
+    height: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 24px; 
+    padding: 24px;
+    vertical-align: top;
+    box-shadow: 5px 5px 5px black;
+}
+img {
+    width: 100%;
+    object-fit: cover; 
+}
+#p1 {
+    font-size: 12px;
+}
+#c1 {
+    background-color: lightblue;
+}
+#c2 {
+    background-color: rgb(174, 77, 174);
+    color: aliceblue;
+}
+#sp-1 {
+    font-weight: bold;
+}
+#c3 {
+    background-color: bisque;
+    color: brown;
+}
