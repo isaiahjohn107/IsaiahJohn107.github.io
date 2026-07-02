@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Uncial+Antiqua&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Playfair", serif;
+    background-color: royalblue;
+}
+h1,
+h2,
+h3,
+h6 {
+    font-family: "Uncial Antiqua", system-ui;
+}
+.sc {
+    width: 85%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: beige;
+}
+.lc {
+    padding: 24px;
+   
+    color: darkred;
+}
+.button {
+    background-color: brown;
+    color: gold;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    width: 350px;
+}
