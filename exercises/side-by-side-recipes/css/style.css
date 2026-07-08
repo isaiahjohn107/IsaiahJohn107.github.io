@@ -20,10 +20,6 @@ img {
     align-items: center;
     margin-top: 40px;
 }
-.image-container,
-.content {
-    flex: 1;
-}
 a {
     background-color: black;
     color: white;
