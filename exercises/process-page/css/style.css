@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.navbar {
+    background-color: brown;
+    text-align: center;
+    padding: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: goldenrod;
+}
+.single-column {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.single-column a {
+    text-decoration: none;
+    color: rgb(4, 42, 4);
+}
+#hero-1 {
+    background-image: url("../images/book-cover.png");
+    background-size: cover; 
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#hero-1 .content {
+    width: max-content;
+    text-align: center;
+    align-items: center;
+    background-color: #fff5;
+    padding: 24px;
+    width: max-content;
+    backdrop-filter: blur(5px);
+}
