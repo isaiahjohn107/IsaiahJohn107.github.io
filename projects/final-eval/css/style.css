@@ -18,7 +18,7 @@ img {
     width: 100%;
     object-fit: cover;
 }
-.back{
+.back {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center; 
@@ -44,6 +44,8 @@ img {
 }
 .col img {
     width: 200px;
+    background-color: white;
+    padding: 24px;
 }
 .btn a {
     background-color: goldenrod;
