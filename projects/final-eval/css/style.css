@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Roborto+Slab" serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bevan", system-ui;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.back{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+}
+.sc {
+    width: 85%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    text-align: center;
+    background-color: #fff5;
+    color: white;
+}
+#li {
+    font-size: large;
+}
+.col {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.col img {
+    width: 200px;
+}
+.btn a {
+    background-color: goldenrod;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 24px;
+    text-decoration: none;
+    text-align: center;
+}
