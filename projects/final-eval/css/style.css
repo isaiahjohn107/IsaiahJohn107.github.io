@@ -22,7 +22,6 @@ img {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center; 
-    height: 100vh;
 }
 .sc {
     width: 85%;
@@ -35,7 +34,7 @@ img {
     color: white;
 }
 #li {
-    font-size: large;
+    font-size: 21px;
 }
 .col {
     display: flex;
@@ -46,6 +45,9 @@ img {
     width: 200px;
     background-color: white;
     padding: 24px;
+}
+.btn {
+    margin: 30px;
 }
 .btn a {
     background-color: goldenrod;
