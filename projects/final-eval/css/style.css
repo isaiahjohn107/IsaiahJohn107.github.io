@@ -46,6 +46,9 @@ img {
     background-color: white;
     padding: 24px;
 }
+.col-2 h1 {
+    margin: 55px 0px;
+}
 .btn {
     margin: 30px;
 }
