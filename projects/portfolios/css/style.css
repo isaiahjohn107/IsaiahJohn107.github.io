@@ -30,8 +30,8 @@ h5 {
     font-size: 20px;
 }
 .single-column {
-    width: 90vh;
-    max-width: 900px;
+    width: 90%;
+    max-width: 1200px;
     margin: 0px auto;
 }
 .content .btn {
@@ -83,6 +83,12 @@ h1 {
     padding-top: 25px;
     justify-content: center;
     margin: 24px;
+}
+.card {
+    border: 5px solid;
+    border-color: #222;
+    padding: 20px;
+    margin: 0px 20px;
 }
 .cards .btn {
     display: inline-block;
