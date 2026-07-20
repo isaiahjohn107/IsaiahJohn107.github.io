@@ -1,18 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=New+Rocker&display=swap');
+
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Merriweather", serif;
+    background-color: rgb(4, 61, 4);
+}
+h1,
+h2,
+h3,
+h6 {
+    font-family: "New Rocker", system-ui;
 }
 img {
     width: 100%;
     object-fit: cover;
 }
 .navbar {
-    background-color: brown;
-    text-align: center;
-    padding: 20px;
+    background-color: rgb(89, 10, 10);
+    display: flex;
+    gap: 24px;
+    padding: 24px 0px;
+    justify-content: center;
 }
 .navbar a {
     text-decoration: none;
@@ -25,7 +36,10 @@ img {
 }
 .single-column a {
     text-decoration: none;
-    color: rgb(4, 42, 4);
+    color: gold;
+    background-color: darkred;
+    padding: 10px 15px;
+    border-radius: 50px;
 }
 #hero-1 {
     background-image: url("../images/book-cover.png");
@@ -43,4 +57,26 @@ img {
     padding: 24px;
     width: max-content;
     backdrop-filter: blur(5px);
+}
+.split {
+    background-color: lightyellow;
+    width: 85%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 24px;
+}
+.two-c {
+    display: flex;
+    gap: 25px;
+}
+.column {
+    padding: 12px;
+}
+.column h2 {
+    color: rgb(6, 56, 6);
+    text-decoration: underline ;
+}
+.column img {
+    width: 40px;
 }
